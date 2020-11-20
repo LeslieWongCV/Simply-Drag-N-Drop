@@ -39,9 +39,15 @@ The optical remote sensing image (large) and SAR image (small) are displayed res
 1. The column coordinates of the upper left corner of the current SAR image in the visible image (Coordinate X) and the row coordinates of the upper left corner of the SAR image in the visible image (Coordinate Y)
 
 2. The name of the current visible light image and the name of the SAR image
-![](Imgs/image2020-11-17_15-52-45.png)
 
+<div align = 'center'>
+<img src = "Imgs/image2020-11-17_15-52-45.png" width = "600" >
+</div>
 ### keyboard input
+
+<div align = 'center'>
+<img src = "Imgs/key.png" height = "400" width = "600" >
+</div>
 
 ![](Imgs/key.png)
 ### Saving the coordinates
