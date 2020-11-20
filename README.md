@@ -1,7 +1,9 @@
 # Simply-Drag-N-Drop
 This tool provides intuitive image output and coordinate point positioning. Developers can check the prediction results of the model and the corresponding coordinate points, and can choose whether to record the current coordinate points. This tool supports changing the transparency of the image to facilitate the observation and comparison of image characteristics.
+<div align = 'center'>
+<img src = "Imgs/image2020-11-17_15-52-45.png" width = "600" >
+</div>
 
-![](Imgs/image2020-11-17_15-52-45.png)
 ## Setup on which the code was tested
 - python==3.7
 - pandas==0.25.3
@@ -22,7 +24,7 @@ Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list
 2. .txt file, image list or model prediction file  
 ![](Imgs/list_file.png)  
 
-#####Note
+##### Note
 When a model file with coordinates is given, the Simply Drag and Drop tool will read the coordinates in the file and print the position of the picture according to the coordinates.
 
 As can be seen from the above figure, the difference between the image list and the model prediction file is whether it contains coordinate points. Each time you run the Simply Drag and Drop tool, you need to specify it as a path, and the Simply Drag and Drop tool will automatically recognize and display the image. Pay attention to the order of file names.
@@ -37,10 +39,10 @@ The optical remote sensing image (large) and SAR image (small) are displayed res
 2. The name of the current visible light image and the name of the SAR image
 ![](Imgs/image2020-11-17_15-52-45.png)
 
-#### keyboard input
+### keyboard input
 
 ![](Imgs/key.png)
-#### Saving the coordinates
+### Saving the coordinates
 The coordinate file can be saved as csv format and txt format, and the historical saved coordinates are displayed in the console.  
 ![](Imgs/cor_file.png)  
 ## Issues
