@@ -14,32 +14,19 @@ To run this tool, simply specify the path of the data folder using.
 The path of the data file should be like this:  
 ![](Imgs/image2020-11-18_15-5-10.png)  
 
-Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list_path.txt: image list or model prediction results
+Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list_path.txt: image list or model prediction results.
 
 1. Image file, divided into optical image (optical) and synthetic aperture radar image (sar)   
-![](Imgs/opt.png)![](Imgs/sar.png)  
 ![](Imgs/img_file.png)  
-<center float="left">
-    <img src="Imgs/opt.png" width="200"/>
-    <img src="Imgs/sar.png" width="200"/>
-</center>
 
 2. .txt file, image list or model prediction file  
-
-![](Imgs/list.png)![](Imgs/cor.png)
-<center class="half">
-    <img src="Imgs/list.png" width="350"/><img src="Imgs/cor.png" width="350"/>
-</center>
-
 ![](Imgs/list_file.png)  
 
-About the model prediction file:
-
+#####Note
 When a model file with coordinates is given, the Simply Drag and Drop tool will read the coordinates in the file and print the position of the picture according to the coordinates.
 
-As can be seen from the above figure, the difference between the image list and the model prediction file is whether it contains coordinate points. Each time you run the Simply Drag and Drop tool, you need to specify it as a path, and the Simply Drag and Drop tool will automatically recognize and display the image.
+As can be seen from the above figure, the difference between the image list and the model prediction file is whether it contains coordinate points. Each time you run the Simply Drag and Drop tool, you need to specify it as a path, and the Simply Drag and Drop tool will automatically recognize and display the image. Pay attention to the order of file names.
 
-Note: Pay attention to the order of file names.
 
 ## Feartures
 
@@ -52,11 +39,9 @@ The optical remote sensing image (large) and SAR image (small) are displayed res
 
 #### keyboard input
 
-![](Imgs/what is does.png)
+![](Imgs/key.png)
 #### Saving the coordinates
-The coordinate file can be saved as csv format and txt format, and the historical saved coordinates are displayed in the console.
-![](Imgs/txt_save.png)
-![](Imgs/csv_save.png)
+The coordinate file can be saved as csv format and txt format, and the historical saved coordinates are displayed in the console.  
 ![](Imgs/cor_file.png)  
 ## Issues
 It is recommended to run the Simply Drag and Drop tool on a display screen larger than 20 inches. The display effect is inconsistent on screens of different sizes, and the display will be incomplete on smaller screens, regardless of the resolution.
