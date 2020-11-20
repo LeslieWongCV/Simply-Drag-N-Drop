@@ -8,7 +8,7 @@ This tool provides intuitive image output and coordinate point positioning. Deve
 - Pillow==8.0.1
 
 ## Usage
-To run this tool, simply specify the path of the data folder using
+To run this tool, simply specify the path of the data folder using. 
 `SimplyDragNDrop.py -path PATH-TO-DATA`  
 
 The path of the data file should be like this:  
@@ -18,7 +18,7 @@ Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list
 
 1. Image file, divided into optical image (optical) and synthetic aperture radar image (sar)   
 ![](Imgs/opt.png)![](Imgs/sar.png)  
-
+![](Imgs/img_file.png)  
 <center float="left">
     <img src="Imgs/opt.png" width="200"/>
     <img src="Imgs/sar.png" width="200"/>
@@ -30,6 +30,8 @@ Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list
 <center class="half">
     <img src="Imgs/list.png" width="350"/><img src="Imgs/cor.png" width="350"/>
 </center>
+
+![](Imgs/list_file.png)  
 
 About the model prediction file:
 
@@ -55,7 +57,9 @@ The optical remote sensing image (large) and SAR image (small) are displayed res
 The coordinate file can be saved as csv format and txt format, and the historical saved coordinates are displayed in the console.
 ![](Imgs/txt_save.png)
 ![](Imgs/csv_save.png)
+![](Imgs/cor_file.png)  
 ## Issues
 It is recommended to run the Simply Drag and Drop tool on a display screen larger than 20 inches. The display effect is inconsistent on screens of different sizes, and the display will be incomplete on smaller screens, regardless of the resolution.
+![](Imgs/issues_file.png)  
 ## Contact
 The above is the description of all the functional requirements of the Simply Drag and Drop tool. If you encounter unclear or controversial issues, feel free to contact [Leslie Wong](yushuowang@gmail.com).
