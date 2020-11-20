@@ -44,7 +44,6 @@ file = open(PATH + "cor_save.txt", 'a')
 file.write(img_list[0][:-1] + '\n')
 file.close()
 
-_ = 1 + 1
 def main():
     root = Tk()
     root.title('Simply Drag n Drop')
@@ -92,7 +91,7 @@ def main():
             img2 = ImageTk.PhotoImage(image=pil_image2)
             my_image2 = img_canvas.create_image(X, Y, anchor='center', image=img2)
 
-        img_label.config(text="Coordinates x: " + str(int(X) - 256 - 50) + " y: " + str(int(Y) - 256 - 50) + "\n" +
+        img_label.config(text="Coordinates X: " + str(int(X) - 256 - 50) + " Y: " + str(int(Y) - 256 - 50) + "\n" +
                              "Img: " + tmp[1] + " | " + tmp[2])  # print the coordinates
 
     def next_img(e):
