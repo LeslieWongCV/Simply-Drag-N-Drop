@@ -40,7 +40,7 @@ The optical remote sensing image (big one) and SAR image (small one) are display
 2. The name of the current optical image and the name of the SAR image
 
 <div align = 'center'>
-<img src = "Imgs/image2020-11-17_15-52-45.png" width = "600" >
+<img src = "Imgs/dnd.png" width = "600" >
 </div>
 
 ### keyboard input
