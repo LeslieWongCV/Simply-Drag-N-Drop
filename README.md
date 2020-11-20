@@ -19,8 +19,9 @@ Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list
 1. Image file, divided into optical image (optical) and synthetic aperture radar image (sar)   
 ![](Imgs/opt.png)![](Imgs/sar.png)  
 
-<center class="half">
-    <img src="Imgs/opt.png" width="200"/><img src="Imgs/sar.png" width="200"/>
+<center float="left">
+    <img src="Imgs/opt.png" width="200"/>
+    <img src="Imgs/sar.png" width="200"/>
 </center>
 
 2. .txt file, image list or model prediction file  
