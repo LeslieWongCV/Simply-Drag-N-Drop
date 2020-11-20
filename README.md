@@ -14,8 +14,10 @@ To run this tool, simply specify the path of the data folder using.
 `SimplyDragNDrop.py -path PATH-TO-DATA`  
 
 The path of the data file should be like this:  
-![](Imgs/image2020-11-18_15-5-10.png)  
 
+<div align = 'center'>
+<img src = "Imgs/image2020-11-18_15-5-10.png" height="100" width = "200" >
+</div>
 Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list_path.txt: image list or model prediction results.
 
 1. Image file, divided into optical image (optical) and synthetic aperture radar image (sar)   
