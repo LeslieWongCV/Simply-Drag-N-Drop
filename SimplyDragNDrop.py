@@ -47,7 +47,7 @@ file.close()
 def main():
     root = Tk()
     root.title('Simply Drag n Drop')
-    root.geometry("1000x1000")  # the width and height of the window
+    root.geometry("2000x1000")  # the width and height of the window
 
     img_canvas = Canvas(root, width=W, height=H, bg="white", bd=5, confine=False, cursor="plus")
     img_canvas.pack(pady=0)
