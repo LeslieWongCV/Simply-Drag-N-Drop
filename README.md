@@ -46,7 +46,7 @@ The optical remote sensing image (big one) and SAR image (small one) are display
 ### keyboard input
 
 <div align = 'center'>
-<img src = "Imgs/key.png" height = "300" width = "600" >
+<img src = "Imgs/key.png" height = "300" width = "500" >
 </div>
 
 
