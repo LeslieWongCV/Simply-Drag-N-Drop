@@ -16,12 +16,10 @@ The path of the data file should be like this:
 Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list_path.txt: image list or model prediction results
 
 1. Image file, divided into optical image (optical) and synthetic aperture radar image (sar) 
+![](Imgs/opt.png)![](Imgs/sar.png)
 2. .txt file, image list or model prediction file
 
-![](Imgs/opt.png)
-![](Imgs/sar.png)
-![](Imgs/list.png)
-![](Imgs/cor.png)
+![](Imgs/list.png)![](Imgs/cor.png)
 
 About the model prediction file:
 
