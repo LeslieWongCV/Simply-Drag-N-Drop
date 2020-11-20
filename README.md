@@ -27,7 +27,7 @@ Data files include image folders (necessary): 1. optical and sar ｜ 2. img_list
 
 ![](Imgs/list.png)![](Imgs/cor.png)
 <center class="half">
-    <img src="Imgs/list.png" width="300"/><img src="cor.png/sar.png" width="300"/>
+    <img src="Imgs/list.png" width="350"/><img src="Imgs/cor.png" width="350"/>
 </center>
 
 About the model prediction file:
